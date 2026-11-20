@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prince Onuoha — DevOps Engineer</title>
+  <meta name="description" content="Prince Onuoha — DevOps Engineer in Berlin. Multi-cloud infrastructure across AWS, Azure, GCP and OCI with Terraform, Kubernetes and CI/CD." />
+  <meta property="og:title" content="Prince Onuoha — DevOps Engineer" />
+  <meta property="og:description" content="I design and automate cloud infrastructure across AWS, Azure, GCP and OCI." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23111'/%3E%3Ctext x='32' y='41' font-family='Arial' font-weight='700' font-size='24' fill='%23fff' text-anchor='middle'%3EPO%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <canvas id="stars" aria-hidden="true"></canvas>
+  <div class="beam" aria-hidden="true"></div>
+
+  <!-- ===== Top bar ===== -->
+  <header class="topbar">
+    <nav class="pill-nav" aria-label="Sections">
+      <a href="#home" class="nav-btn active" data-label="Home" aria-label="Home">
+        <svg viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg>
+      </a>
+      <a href="#work" class="nav-btn" data-label="Projects" aria-label="Projects">
+        <svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 13h18"/></svg>
+      </a>
+      <a href="#stack" class="nav-btn" data-label="Stack" aria-label="Tech stack">
+        <svg viewBox="0 0 24 24"><path d="m4 17 6-6-6-6M12 19h8"/></svg>
+      </a>
+      <a href="#experience" class="nav-btn" data-label="Experience" aria-label="Experience">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>
+      </a>
+      <a href="#credentials" class="nav-btn" data-label="Credentials" aria-label="Education and certifications">
+        <svg viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/></svg>
+      </a>
+    </nav>
+    <a class="cta-pill" href="mailto:hello@princeonuoha.com?subject=Let's%20talk" aria-label="Hire me — send an email">
+      <span class="cta-orb" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+      <span>Hire Me</span>
+    </a>
+    <button class="theme-btn" id="themeBtn" aria-label="Toggle colour theme">
+      <svg class="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      <svg class="moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>
+    </button>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section id="home" class="hero">
+      <div class="hero-left reveal">
+        <p class="mono kicker">$ whoami</p>
+        <h1>DevOps &amp; Cloud<br/>Engineer</h1>
+        <p class="hero-loc mono">Berlin, Germany · EN / DE</p>
+      </div>
+
+      <div class="hero-figure reveal">
+        <div class="portrait">
+          <img src="assets/prince.jpg" alt="Portrait of Prince Onuoha" width="400" height="400" />
+          <span class="badge mono">kubectl ✓</span>
+        </div>
+      </div>
+
+      <div class="hero-right reveal">
+        <p class="muted">Hi, I'm Prince</p>
+        <p class="lead">I don't just deploy infrastructure — I engineer outcomes.</p>
+        <p class="muted big">I design and automate cloud infrastructure across AWS, Azure, GCP and OCI, turning complex architectures into reliable, production-ready systems.</p>
+        <p class="muted">Terraform · Kubernetes · CI/CD · Observability</p>
+        <a class="building mono" href="https://www.devopsdrill.com" target="_blank" rel="noopener"><i></i>Now building DevOps Drill ↗</a>
+        <div class="hero-links">
+          <a href="https://github.com/Princeonuoha" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+          </a>
+          <a href="https://linkedin.com/in/princeonuoha" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="mailto:hello@princeonuoha.com" aria-label="Email">
+            <svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+          </a>
+        </div>
+      </div>
+      <a href="#work" class="scroll-hint mono" aria-label="Scroll to projects">scroll ↓</a>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section id="work" class="section">
+      <header class="sec-head reveal">
+        <p class="mono kicker">~/projects</p>
+        <h2>Real-world DevOps</h2>
+        <p class="muted">Products and production-style systems, end to end. Hover the diagrams to trace the flow.</p>
+      </header>
+
+      <article class="project featured reveal">
+        <div class="project-text">
+          <div class="tags"><span>#Product</span><span>#EdTech</span><span class="live">● Early access</span></div>
+          <h3>DevOps Drill</h3>
+          <p class="sub mono">Daily DevOps practice with real-incident labs · devopsdrill.com</p>
+          <p>A learning platform I designed and built: five minutes a day to production-ready DevOps. Short lessons, spaced review that resurfaces what you're about to forget, and in-browser terminal labs that replay real production incidents.</p>
+          <div class="stats">
+            <div><b>90</b><span>lessons</span></div>
+            <div><b>14</b><span>sections</span></div>
+            <div><b>20</b><span>terminal labs</span></div>
+            <div><b>12</b><span>real incidents</span></div>
+            <div><b>270</b><span>review questions</span></div>
+          </div>
+          <ul class="points">
+            <li>Simulated Linux, Kubernetes, Helm/Argo CD, Terraform, GitLab CI and observability environments — nothing touches the learner's machine</li>
+            <li>Labs are graded on what you actually did to the system, not multiple choice</li>
+            <li>Spaced-repetition scenarios, streaks, XP and levels, with progress synced across devices</li>
+            <li>Free lessons and step-by-step fix guides for errors like CrashLoopBackOff and OOMKilled</li>
+          </ul>
+          <div class="btn-row">
+            <a class="link-btn" href="https://www.devopsdrill.com" target="_blank" rel="noopener">Visit devopsdrill.com →</a>
+          </div>
+        </div>
+        <div class="term" aria-label="Example DevOps Drill lab">
+          <div class="term-bar"><i></i><i></i><i></i><span class="mono">lab · checkout-api</span></div>
+<pre class="mono"><span class="p">$</span> kubectl get pods -n shop
+checkout-api-x2kqp  0/1  <span class="err">CrashLoopBackOff</span>
+
+<span class="p">$</span> kubectl describe pod checkout-api-x2kqp
+Reason: <span class="err">OOMKilled</span>  Exit Code: 137
+
+<span class="p">$</span> kubectl set resources deploy/checkout-api \
+    --limits=memory=512Mi
+<span class="p">$</span> kubectl rollout status deploy/checkout-api
+deployment successfully rolled out
+
+<span class="ok">✓ Pods are Running and stay up</span>
+<span class="ok">✓ Challenge solved · +40 XP · 12-day streak</span></pre>
+        </div>
+      </article>
+
+      <article class="project reveal">
+        <div class="project-text">
+          <div class="tags"><span>#IaC</span><span>#AWS</span><span>#Microservices</span></div>
+          <h3>Multi-Stack DevOps Infrastructure</h3>
+          <p class="sub mono">Terraform + Ansible + Docker on AWS</p>
+          <p>End-to-end Infrastructure as Code deploying a distributed microservices voting app across AWS EC2 instances with Terraform and Ansible.</p>
+          <ul class="points">
+            <li>Terraform provisioning across multiple EC2 instances</li>
+            <li>Multi-host configuration management with Ansible playbooks</li>
+            <li>Five services — Vote, Redis, Worker, PostgreSQL, Result — networked across hosts</li>
+            <li>Idempotent automation, production-style deployment</li>
+          </ul>
+          <div class="chips"><span>Terraform</span><span>Ansible</span><span>Docker</span><span>AWS EC2</span><span>Python</span><span>.NET</span><span>Redis</span><span>PostgreSQL</span></div>
+          <a class="link-btn" href="https://github.com/Princeonuoha/Multi-stack-Devops-Infrastructure" target="_blank" rel="noopener">View on GitHub →</a>
+        </div>
+        <div class="diagram" data-flow>
+          <div class="d-row"><span class="node">User</span></div>
+          <div class="d-row"><span class="node group">Frontend EC2<small>Vote · Result</small></span></div>
+          <div class="d-row"><span class="node">Worker</span><span class="node">Redis</span></div>
+          <div class="d-row"><span class="node group">Database EC2<small>PostgreSQL</small></span></div>
+        </div>
+      </article>
+
+      <article class="project reveal">
+        <div class="project-text">
+          <div class="tags"><span>#Kubernetes</span><span>#EKS</span><span>#CI/CD</span></div>
+          <h3>Cloud-Native Voting App on EKS</h3>
+          <p class="sub mono">Kubernetes + CI/CD + NGINX Ingress + Cloudflare</p>
+          <p>Fully containerised microservices on AWS EKS with NGINX Ingress, Cloudflare DNS and a complete GitHub Actions pipeline.</p>
+          <ul class="points">
+            <li>User → Cloudflare DNS → AWS ALB → NGINX Ingress → K8s Services</li>
+            <li>Flask (Vote), Node.js (Result), .NET Core (Worker), Redis, PostgreSQL</li>
+            <li>Automated build, test and deploy with GitHub Actions</li>
+            <li>Evolved from manual K8s deploys to a fully automated workflow</li>
+          </ul>
+          <div class="chips"><span>AWS EKS</span><span>Kubernetes</span><span>GitHub Actions</span><span>NGINX Ingress</span><span>Cloudflare</span><span>Docker</span><span>Helm</span></div>
+          <a class="link-btn" href="https://github.com/Princeonuoha/voting-app-eks" target="_blank" rel="noopener">View on GitHub →</a>
+        </div>
+        <div class="diagram" data-flow>
+          <div class="d-row"><span class="node">User</span></div>
+          <div class="d-row"><span class="node">Cloudflare DNS</span></div>
+          <div class="d-row"><span class="node">AWS ALB</span></div>
+          <div class="d-row"><span class="node">NGINX Ingress</span></div>
+          <div class="d-row"><span class="node">Vote</span><span class="node">Result</span><span class="node">Worker</span></div>
+        </div>
+      </article>
+
+      <article class="project reveal">
+        <div class="project-text">
+          <div class="tags"><span>#Azure</span><span>#Observability</span><span>#Security</span></div>
+          <h3>Expensy DevOps Platform</h3>
+          <p class="sub mono">AKS + CI/CD + Observability + Security</p>
+          <p>A full-stack expense tracker on Azure Kubernetes Service with automated CI/CD, real-time monitoring and centralised logging.</p>
+          <ul class="points">
+            <li>GitHub Actions → Docker Hub → auto-deploy to Kubernetes</li>
+            <li>Prometheus metrics → Grafana dashboards + Azure Monitor logs</li>
+            <li>Azure RBAC, K8s secrets, network policies, HTTPS via cert-manager</li>
+          </ul>
+          <div class="chips"><span>AKS</span><span>Docker</span><span>GitHub Actions</span><span>Prometheus</span><span>Grafana</span><span>Azure Monitor</span><span>MongoDB</span><span>Redis</span><span>cert-manager</span></div>
+          <a class="link-btn" href="https://github.com/Princeonuoha/devops.expensy/tree/feature/expensy-devops" target="_blank" rel="noopener">View on GitHub →</a>
+        </div>
+        <div class="diagram" data-flow>
+          <div class="d-row"><span class="node">User</span><span class="node alt">GitHub Actions</span></div>
+          <div class="d-row"><span class="node">NGINX Ingress</span></div>
+          <div class="d-row"><span class="node">Frontend</span><span class="node">Backend API</span></div>
+          <div class="d-row"><span class="node">MongoDB</span><span class="node">Redis</span></div>
+          <div class="d-row"><span class="node alt">Prometheus</span><span class="node alt">Grafana</span><span class="node alt">Azure Monitor</span></div>
+        </div>
+      </article>
+
+      <article class="project reveal">
+        <div class="project-text">
+          <div class="tags"><span>#Python</span><span>#Docker</span><span>#Quant</span><span class="live">● Paper &amp; demo only</span></div>
+          <h3>ETH Bot — Crypto Trend-Trading Research</h3>
+          <p class="sub mono">Python + Docker + Binance · 9 services</p>
+          <p>Research and test bots built around one daily trend rule, <b class="mono">N55_M20</b>, running on paper and on Binance's demo account. No real money is traded.</p>
+          <ul class="points">
+            <li>Opens a long on a 55-day high breakout (short on a 55-day low); exits when price crosses back through the 20-day low/high</li>
+            <li>Trades 19 coin futures, sizing each position by volatility and capping it at 20% of the account</li>
+            <li>Paper tests with and without take-profit run side by side against live demo orders, scheduled daily</li>
+            <li>Watchdog sends Telegram alerts for HALTs and missed or late runs, plus a daily report; an overview dashboard compares every strategy</li>
+          </ul>
+          <div class="chips"><span>Python</span><span>Docker Compose</span><span>Binance API</span><span>Prometheus</span><span>Grafana</span><span>Telegram</span><span>Flask</span></div>
+          <div class="btn-row">
+            <a class="link-btn" href="https://github.com/Princeonuoha/eth-bot" target="_blank" rel="noopener">GitHub →</a>
+            <a class="link-btn ghost" href="https://www.princeonuoha.com/projects/eth-bot" target="_blank" rel="noopener">Read the story</a>
+          </div>
+        </div>
+        <div class="diagram" data-flow>
+          <div class="d-row"><span class="node">Binance data</span></div>
+          <div class="d-row"><span class="node group">N55_M20 rule<small>55-day breakout · 20-day exit</small></span></div>
+          <div class="d-row"><span class="node">trend-forward</span><span class="node">trend-forward-tp</span><span class="node">futures-trader</span></div>
+          <div class="d-row"><span class="node alt">watchdog → Telegram</span><span class="node alt">overview</span></div>
+          <div class="d-row"><span class="node alt">Prometheus</span><span class="node alt">Grafana</span></div>
+        </div>
+      </article>
+    </section>
+
+    <!-- ===== Stack ===== -->
+    <section id="stack" class="section">
+      <header class="sec-head reveal">
+        <p class="mono kicker">~/skills</p>
+        <h2>Tech stack</h2>
+      </header>
+      <div class="stack-grid">
+        <div class="stack-card reveal"><h4 class="mono">cloud</h4><p>AWS · Azure · GCP · Oracle Cloud (OCI)</p></div>
+        <div class="stack-card reveal"><h4 class="mono">iac &amp; config</h4><p>Terraform · Ansible</p></div>
+        <div class="stack-card reveal"><h4 class="mono">containers</h4><p>Kubernetes (AKS, EKS) · Docker · Helm</p></div>
+        <div class="stack-card reveal"><h4 class="mono">ci/cd &amp; gitops</h4><p>GitLab CI · GitHub Actions · Argo CD · Renovate</p></div>
+        <div class="stack-card reveal"><h4 class="mono">languages</h4><p>Python · Go · Bash · SQL · Linux</p></div>
+        <div class="stack-card reveal"><h4 class="mono">observability</h4><p>Grafana · Loki · Tempo · Prometheus · Azure Monitor</p></div>
+        <div class="stack-card reveal"><h4 class="mono">security</h4><p>Cloud &amp; network security · Trivy · SonarQube</p></div>
+        <div class="stack-card reveal"><h4 class="mono">people</h4><p>Client advisory · Technical consulting · Analytical thinking · Teamwork</p></div>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section id="experience" class="section">
+      <header class="sec-head reveal">
+        <p class="mono kicker">~/experience</p>
+        <h2>Work history</h2>
+      </header>
+      <ol class="timeline">
+        <li class="reveal">
+          <span class="when mono">Jun 2026 — Present</span>
+          <div>
+            <h3>DevOps Engineer</h3>
+            <p class="where">diva-e conclusion · Berlin</p>
+            <ul class="points">
+              <li><b>Kubernetes &amp; GitOps:</b> manage and troubleshoot a 34-cluster Azure AKS platform across dev, test, QAS and production with GitLab CI, Helm and Argo CD.</li>
+              <li><b>Platform upgrades:</b> lead major upgrades and routine dependency updates via Renovate, including pre-release testing and post-upgrade dashboard fixes.</li>
+              <li><b>Observability &amp; incidents:</b> maintain the Grafana, Loki and Tempo stack, resolve production bottlenecks and build test labs to improve reliability.</li>
+              <li><b>Pipelines &amp; security:</b> automate token rotations, fix Terraform drift and add retry logic in Go to harden deployments and access controls.</li>
+              <li><b>Docs &amp; open source:</b> write internal platform documentation and contribute to open-source Helm charts.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="reveal">
+          <span class="when mono">Jan 2026 — Mar 2026</span>
+          <div>
+            <h3>DevOps &amp; Cloud Engineering Bootcamp</h3>
+            <p class="where">IronHack · Berlin</p>
+            <ul class="points">
+              <li>Extended platform depth from OCI to AWS and Azure through production-focused engineering.</li>
+              <li>Built hands-on projects across Kubernetes, CI/CD and observability on three major clouds.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="reveal">
+          <span class="when mono">Sep 2021 — Jan 2026</span>
+          <div>
+            <h3>Account Cloud Engineer &amp; Technical Consultant</h3>
+            <p class="where">Oracle · Berlin, Düsseldorf, Stuttgart</p>
+            <ul class="points">
+              <li>Led end-to-end presales cycles for OCI migrations — scoping, architecture design and live demos for German public sector and regulated industries.</li>
+              <li>Delivered OCI architecture and GenAI agent showcases to C-level and IT leadership at organisations including HZD and BGN.</li>
+              <li>Provisioned full OCI environments live — compute, networking, Kubernetes and GenAI agents.</li>
+              <li>Unblocked live production engagements by coordinating vendor engineering teams during the HZD state government migration.</li>
+              <li>Presented technical solutions in German to technical and non-technical audiences.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="reveal">
+          <span class="when mono">Jan 2020 — Apr 2020</span>
+          <div>
+            <h3>Research Assistant</h3>
+            <p class="where">BAM (Bundesanstalt für Materialforschung) · Berlin</p>
+            <ul class="points">
+              <li>R&amp;D in the Explosion Protection Division; data analysis for scientific publications and weekly reporting.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===== Credentials ===== -->
+    <section id="credentials" class="section">
+      <header class="sec-head reveal">
+        <p class="mono kicker">~/education &amp;&amp; ~/certifications</p>
+        <h2>Credentials</h2>
+      </header>
+      <div class="cred-grid">
+        <div class="cred-col reveal">
+          <h4 class="mono">education</h4>
+          <div class="cred"><span class="mono">2026</span><div><b>DevOps &amp; Cloud Computing Bootcamp</b><p>IronHack · Berlin</p></div></div>
+          <div class="cred"><span class="mono">2020</span><div><b>M.Sc. Process Safety &amp; Environmental Engineering</b><p>Otto-von-Guericke-Universität Magdeburg</p></div></div>
+          <div class="cred"><span class="mono">2016</span><div><b>B.Sc. Petroleum &amp; Gas Engineering</b><p>University of Lagos</p></div></div>
+        </div>
+        <div class="cred-col reveal">
+          <h4 class="mono">certifications</h4>
+          <ul class="certs">
+            <li>OCI 2025 Certified Generative AI Professional</li>
+            <li>LFS458: Kubernetes Administration (Linux Foundation)</li>
+            <li>OCI 2024 Certified Architect Associate</li>
+            <li>OCI 2023 AI Certified Foundations Associate</li>
+            <li>OCI 2023 Certified Multicloud Architect Associate</li>
+            <li>Unix Essential Training (LinkedIn)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="section contact reveal">
+      <p class="mono kicker">~/contact</p>
+      <h2>Let's build something reliable.</h2>
+      <p class="muted big">Open to DevOps and Cloud Engineering roles in Berlin or remote.</p>
+      <div class="btn-row center">
+        <a class="cta-pill solid" href="mailto:hello@princeonuoha.com">hello@princeonuoha.com</a>
+        <a class="link-btn ghost" href="tel:+4915218494353">+49 1521 8494353</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year">2026</span> Prince Onuoha</span>
+    <span class="mono">Berlin · English (native) · German (B2)</span>
+  </footer>
+
+  <!-- Quick contact bubble -->
+  <button class="chat-btn" id="chatBtn" aria-label="Quick contact" aria-expanded="false" aria-controls="chatPanel">
+    <svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L3 21l1.9-6.4A8 8 0 1 1 21 12z"/></svg>
+  </button>
+  <div class="chat-panel" id="chatPanel" hidden>
+    <p class="mono kicker">quick contact</p>
+    <p>Got a role or a project in mind? Reach out directly.</p>
+    <a href="mailto:hello@princeonuoha.com">Email me</a>
+    <a href="https://linkedin.com/in/princeonuoha" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://github.com/Princeonuoha" target="_blank" rel="noopener">GitHub</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
