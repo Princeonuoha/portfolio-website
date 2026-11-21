@@ -59,20 +59,20 @@
         <p class="muted">Hi, I'm Prince</p>
         <p class="lead">Keeping production Kubernetes boring, on purpose.</p>
         <div class="hero-copy">
-          <p>At diva-e, I help run a 34-cluster AKS platform across dev, test, QAS, and production using GitLab CI, Helm, and Argo CD.</p>
+          <p>At my current job, I help run a 34-cluster AKS platform across dev, test, QAS, and production using GitLab CI, Helm, and Argo CD.</p>
           <p>Outside of work, I build <a href="#devops-drill">DevOps Drill</a> (a daily practice platform for DevOps engineers) and <a href="#eth-bot">eth bot</a> (a crypto trading research and testing bot built with Python, Docker, and the Binance API).</p>
         </div>
         <div class="hero-actions">
         <a class="building mono" href="https://www.devopsdrill.com" target="_blank" rel="noopener"><i></i>Now building DevOps Drill ↗</a>
         <div class="hero-links">
-          <a href="https://github.com/Princeonuoha" target="_blank" rel="noopener" aria-label="GitHub">
-            <svg viewBox="0 0 24 24"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
-          </a>
           <a href="https://linkedin.com/in/princeonuoha" target="_blank" rel="noopener" aria-label="LinkedIn">
             <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
           </a>
           <a href="mailto:hello@princeonuoha.com" aria-label="Email">
             <svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+          </a>
+          <a href="assets/Prince-Onuoha-CV.pdf" download aria-label="Download CV (PDF)" title="Download CV (PDF)">
+            <svg viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 21h16"/></svg>
           </a>
         </div>
         </div>
@@ -149,30 +149,6 @@ deployment successfully rolled out
           <div class="d-row"><span class="node group">Frontend EC2<small>Vote · Result</small></span></div>
           <div class="d-row"><span class="node">Worker</span><span class="node">Redis</span></div>
           <div class="d-row"><span class="node group">Database EC2<small>PostgreSQL</small></span></div>
-        </div>
-      </article>
-
-      <article class="project reveal">
-        <div class="project-text">
-          <div class="tags"><span>#Kubernetes</span><span>#EKS</span><span>#CI/CD</span></div>
-          <h3>Cloud-Native Voting App on EKS</h3>
-          <p class="sub mono">Kubernetes + CI/CD + NGINX Ingress + Cloudflare</p>
-          <p>Fully containerised microservices on AWS EKS with NGINX Ingress, Cloudflare DNS and a complete GitHub Actions pipeline.</p>
-          <ul class="points">
-            <li>User → Cloudflare DNS → AWS ALB → NGINX Ingress → K8s Services</li>
-            <li>Flask (Vote), Node.js (Result), .NET Core (Worker), Redis, PostgreSQL</li>
-            <li>Automated build, test and deploy with GitHub Actions</li>
-            <li>Evolved from manual K8s deploys to a fully automated workflow</li>
-          </ul>
-          <div class="chips"><span>AWS EKS</span><span>Kubernetes</span><span>GitHub Actions</span><span>NGINX Ingress</span><span>Cloudflare</span><span>Docker</span><span>Helm</span></div>
-          <a class="link-btn" href="https://github.com/Princeonuoha/voting-app-eks" target="_blank" rel="noopener">View on GitHub →</a>
-        </div>
-        <div class="diagram" data-flow>
-          <div class="d-row"><span class="node">User</span></div>
-          <div class="d-row"><span class="node">Cloudflare DNS</span></div>
-          <div class="d-row"><span class="node">AWS ALB</span></div>
-          <div class="d-row"><span class="node">NGINX Ingress</span></div>
-          <div class="d-row"><span class="node">Vote</span><span class="node">Result</span><span class="node">Worker</span></div>
         </div>
       </article>
 
@@ -335,6 +311,7 @@ deployment successfully rolled out
       <div class="btn-row center">
         <a class="cta-pill solid" href="mailto:hello@princeonuoha.com">hello@princeonuoha.com</a>
         <a class="link-btn ghost" href="tel:+4915218494353">+49 1521 8494353</a>
+        <a class="link-btn ghost" href="assets/Prince-Onuoha-CV.pdf" download>Download CV (PDF)</a>
       </div>
     </section>
   </main>
